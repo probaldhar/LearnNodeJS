@@ -1,0 +1,82 @@
+[
+	{
+		"shopname": "Panda",
+		"location":{
+			"type": "Point",
+			"coordinates": [30.5364104,-87.2326525]
+		},
+		"details": "Great coffee, atmosphere, and staff.",
+		"website": "http://www.menageriecoffee.com/",
+		"image"	 : "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+	},
+	{
+		"shopname": "Schlotzsky's Austin Eatery",
+		"location":{
+			"type": "Point",
+			"coordinates": [30.536806,-87.23123]
+		},
+		"details": "Great for a coffee on the go.",
+		"website": "http://www.oldcitycoffee.com/",
+		"image"	 : "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+	},
+	{
+		"shopname": "Carmelinas Cafe",
+		"location":{
+			"type": "Point",
+			"coordinates": [30.536806,-87.23123]
+		},
+		"details": "Urban camper vibes.",
+		"website": "http://unitedbyblue.com/pages/flagship",
+		"image"	 : "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+	},
+	{
+		"shopname": "Rock n Roll Sushi",
+		"location":{
+			"type": "Point",
+			"coordinates": [30.536806,-87.23123]
+		},
+		"details": "Good coffee. Tons of electrical outlets.",
+		"website": "http://www.elixrcoffee.com/",
+		"image"	 : "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+	},
+	{
+		"shopname": "Shot Tower Coffee",
+		"location":{
+			"type": "Point",
+			"coordinates": [39.937587,-75.153215]
+		},
+		"details": "Good coffee. Lots of light.",
+		"website": "http://www.yelp.com/biz/shot-tower-coffee-philadelphia-2",
+		"image"	 : "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+	},
+	{
+		"shopname": "Benna's Cafe",
+		"location":{
+			"type": "Point",
+			"coordinates": [39.932930,-75.157639]
+		},
+		"details": "Great place to get some work done.",
+		"website": "https://www.facebook.com/pages/Bennas-Cafe/316526051875056",
+		"image"	 : "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+	},
+	{
+		"shopname": "Ultimo Coffee Bar",
+		"location":{
+			"type": "Point",
+			"coordinates": [39.926947,-75.171025]
+		},
+		"details": "Hand poured coffee.",
+		"website": "http://www.ultimocoffee.com/",
+		"image"	 : "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+	},
+	{
+		"shopname": "La Colombe Fishtown",
+		"location":{
+			"type": "Point",
+			"coordinates": [39.971241,-75.134246]
+		},
+		"details": "Iced coffee on draft.",
+		"website": "http://lacolombe.com/",
+		"image"	 : "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+	}
+]

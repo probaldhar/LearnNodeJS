@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-googlemaps",
+  "version": "1.0.0",
+  "description": "A sample example of a Node.js/GoogleMap webapp",
+  "main": "index.js",
+  "author": "Probal",
+  "license": "ISC",
+  "dependencies": {
+    "express": ">=4.13",
+    "jade": "1.11.0"
+  },
+  "homepage": "https://github.com/probaldhar/LearnNodeJS"
+}
