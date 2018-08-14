@@ -1,4 +1,4 @@
-##Instructions for running the app
+# Instructions for running the app
 
 1. Clone this repository.
 1. Open the terminal and change directory to the Git repo root.
