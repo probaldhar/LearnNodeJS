@@ -1,6 +1,6 @@
 # excel-to-json-in-Node.js
 
-##Quick Setup
+## Quick Setup
 
 1) `git clone https://github.com/rahil471/excel-to-json-in-Node.js.git` <br>
 2) `cd excel-to-json-in-Node.js` <br>
