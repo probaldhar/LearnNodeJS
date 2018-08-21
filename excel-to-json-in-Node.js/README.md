@@ -1,8 +1,5 @@
 # excel-to-json-in-Node.js
 
-## Tutorial 
-http://code.ciphertrick.com/2016/06/05/read-excel-files-convert-json-node-js/
-
 ##Quick Setup
 
 1) `git clone https://github.com/rahil471/excel-to-json-in-Node.js.git` <br>
