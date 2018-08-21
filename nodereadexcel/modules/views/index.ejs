@@ -1,0 +1,42 @@
+<% if (env !== "development") { %>
+<%- registerCss('shstp/css/index.css') %>
+<%- registerJs('shstp/js/page/index.min.js') %>
+<% }  else{ %>
+<%- registerJs('js/page/index.min.js') %>
+<% } %>
+<!--banner区域-->
+<div class="index-banner">
+    <!--首页banner轮播图2017-11-29-->
+    <div class="page" data-url="<%=gcbox.gcbox%>">
+        导入文件
+    </div>
+<button id="submit">提交</button>
+<input type="file" name="file" id="fileInputElement"/>
+<div class="progressBar" style="display: none;">
+    <p class="bar"></p>
+</div>
+
+<button id="submitpint">打印</button>
+
+<div>文件头部,不打印出来的内容。。。</div>
+<!--startprint-->
+<div>这是被打印出来的内容</div>
+<div>这是被打印出来的内容</div>
+<div>这是被打印出来的内容</div>
+<div>这是被打印出来的内容</div>
+<!--endprint-->
+<div>文件尾部，不打印出来的内容。。。</div>
+
+
+<div id="qrcode">
+</div>
+
+<input type="text" id="getval"/> <button id="send">点击更换验证码</button>
+
+<div id="output"></div>
+
+
+
+<a href="">下载</a>
+
+</div>

@@ -1,0 +1,60 @@
+{
+  "apps": [
+    {
+      "name": "SHSTPFE",
+      "script": "./app.js",
+      "watch": false,
+      "instances": 4,
+      "log_date_format": "YYYY-MM-DD HH:mm:ss.SSS",
+      "date_format": "YYYY-MM-DD HH:mm:ss.SSS",
+      "merge_logs": true,
+      "log_file": "../var/logs/outerr.log",
+      "out_file": "../var/logs/out.log",
+      "error_file": "../var/logs/error.log",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "env_sit": {
+        "NODE_ENV": "test"
+      },
+      "env_pre": {
+        "NODE_ENV": "prepare"
+      },
+      "env_xgpre": {
+        "NODE_ENV": "preparexg"
+      },
+      "env_prd": {
+        "NODE_ENV": "production"
+      }
+    },
+    {
+      "name": "SHSTPFE-monit",
+      "script": "www/pvd.js",
+      "cwd": "./",
+      "exec_mode": "fork",
+      "max_memory_restart": "1G",
+      "autorestart": true,
+      "out_file": "../var/logs/dev/null",
+      "error_file": "../var/logs/dev/null",
+      "pid_file": "../var/logs/monit.pid",
+      "log_date_format":"YYYY-MM-DD HH:mm Z",
+      "node_args": [],
+      "args": [],
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "env_sit": {
+        "NODE_ENV": "test"
+      },
+      "env_pre": {
+        "NODE_ENV": "prepare"
+      },
+      "env_xgpre": {
+        "NODE_ENV": "preparexg"
+      },
+      "env_prd": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}

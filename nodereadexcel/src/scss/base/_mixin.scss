@@ -1,0 +1,9 @@
+@function toRem($px) {
+    $rem: $px/50;
+    @return #{$rem}rem;
+}
+.wrapper {
+    width: toRem(750);
+    background-color:#fff;
+}
+

@@ -1,0 +1,7 @@
+<% if (env !== "development") { %>
+<%- registerCss('shstp/css/index.css') %>
+<%- registerJs('shstp/js/page/index.min.js') %>
+<% }  else{ %>
+<%- registerJs('js/page/index.min.js') %>
+<% } %>
+<div>测试mpassport</div>

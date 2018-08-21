@@ -1,0 +1,8 @@
+<% if (env !== "development") { %>
+<%- registerCss('shstp/css/error.css') %>
+<% }  else{ %>
+<%- registerJs('js/page/error.min.js') %>
+<% } %>
+<div class="notfound404-img">
+    <p>该页面无法显示，请联系管理员或刷新重试</p>
+</div>
